@@ -30,16 +30,7 @@ body{
 	top: 350px;
 	left: 670px;
 }
-.pads1{
-	padding: 10px;
-	margin-top: 20px;
-	margin-right: 0px;
-}
-.pads2{
-	padding: 10px;
-	margin-top: 20px;
-	margin-right: 60px;
-}
+
 .alignimg{
 	float: right;
 	display: none;
