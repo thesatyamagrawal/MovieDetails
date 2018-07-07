@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jquery Assignment</title>
+</head>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" type="text/css" href="cssfile.css">
+<body>
+	<div class="firstpage">
+		<div class="placeselect" class="pads">
+		<span>Search By :</span>
+		<input type="radio" name="A" class="pads" value="IMDB">IMDB ID</button>
+		<input type="radio" name="A" class="pads" value="Title" checked>Movie Title</button>
+		<input type="radio" name="A" class="pads" value="Year">Movie Title and Year</button><br>
+		</div>
+		<div class="placesearch">
+			<input type="text" name="Movie Title" id="userInput1" autofocus class="pads1" placeholder="Title or IMDB ID">
+			<input type="text" name="Movie Year" id="userInput2" autofocus class="pads2" placeholder="Year">
+		</div><br>
+		<div class="placebutton">
+			<button type="Search" name="Search" autofocus class="searchbutton pads">Search</button>
+		</div>
+		<div id="log"></div>
+	</div>
+	<div class="card">
+		<div id="img-holder">
+			<img class="alignimg" src="dummy.png" style="width:10%" />
+			<div class="container" >
+			<div id="img-txt1"></div>
+			</div>
+	
+		</div>
+	</div>
+<script type="text/javascript" src="jsfile.js"></script>
+</body>
+</html>
